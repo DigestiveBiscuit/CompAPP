@@ -1,0 +1,6 @@
+framework module Pods_CompAPP {
+  umbrella header "Pods-CompAPP-umbrella.h"
+
+  export *
+  module * { export * }
+}

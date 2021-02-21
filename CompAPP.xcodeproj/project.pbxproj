@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0772F29D26042C3305E69073 /* Pods_CompAPPTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D58089150B4389D033EF10F5 /* Pods_CompAPPTests.framework */; };
+		AC9438B6B263D1357071589C /* Pods_CompAPP_CompAPPUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65999392C2075214185BAAD1 /* Pods_CompAPP_CompAPPUITests.framework */; };
+		C3CEA03A108C6B0927916266 /* Pods_CompAPP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB22D43E9D217C322E669C67 /* Pods_CompAPP.framework */; };
+		CD295DF82546F105000795AA /* AfterLogged.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD295DF72546F105000795AA /* AfterLogged.swift */; };
+		CD4D7E0B2582EA0600D342D2 /* SinfulView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4D7E0A2582EA0600D342D2 /* SinfulView.swift */; };
+		CD4D7E1125837B2100D342D2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CD4D7E1025837B2100D342D2 /* README.md */; };
+		CD648EA125447660003C6513 /* CompAPPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD648EA025447660003C6513 /* CompAPPApp.swift */; };
+		CD648EA325447660003C6513 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD648EA225447660003C6513 /* ContentView.swift */; };
+		CD648EA525447661003C6513 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD648EA425447661003C6513 /* Assets.xcassets */; };
+		CD648EA825447661003C6513 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD648EA725447661003C6513 /* Preview Assets.xcassets */; };
+		CD648EB325447662003C6513 /* CompAPPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD648EB225447662003C6513 /* CompAPPTests.swift */; };
+		CD648EBE25447662003C6513 /* CompAPPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD648EBD25447662003C6513 /* CompAPPUITests.swift */; };
+		CD771EDD25823DA100DAC45C /* ReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD771EDC25823DA100DAC45C /* ReminderView.swift */; };
+		CD797A33255AEE1B0034DC58 /* NotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD797A32255AEE1B0034DC58 /* NotesView.swift */; };
+		CD797A3B255AF1580034DC58 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD797A3A255AF1580034DC58 /* CalendarView.swift */; };
+		CD797A40255B2CA60034DC58 /* NotesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD797A3F255B2CA60034DC58 /* NotesData.swift */; };
+		CD797A4D256299B50034DC58 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD797A4C256299B50034DC58 /* SettingsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD648EAF25447662003C6513 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD648E952544765F003C6513 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD648E9C2544765F003C6513;
+			remoteInfo = CompAPP;
+		};
+		CD648EBA25447662003C6513 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD648E952544765F003C6513 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD648E9C2544765F003C6513;
+			remoteInfo = CompAPP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0223951DAB0F34A94D2910DD /* Pods-CompAPP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CompAPP.debug.xcconfig"; path = "Target Support Files/Pods-CompAPP/Pods-CompAPP.debug.xcconfig"; sourceTree = "<group>"; };
+		1653745B669CD300B11CA299 /* Pods-CompAPP-CompAPPUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CompAPP-CompAPPUITests.release.xcconfig"; path = "Target Support Files/Pods-CompAPP-CompAPPUITests/Pods-CompAPP-CompAPPUITests.release.xcconfig"; sourceTree = "<group>"; };
+		436FDCAF9DBC2C057254D6A6 /* Pods-CompAPP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CompAPP.release.xcconfig"; path = "Target Support Files/Pods-CompAPP/Pods-CompAPP.release.xcconfig"; sourceTree = "<group>"; };
+		65999392C2075214185BAAD1 /* Pods_CompAPP_CompAPPUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CompAPP_CompAPPUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79AE17420EB5D36388D5600D /* Pods-CompAPPTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CompAPPTests.debug.xcconfig"; path = "Target Support Files/Pods-CompAPPTests/Pods-CompAPPTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A2BE4376BD4920A948F5E239 /* Pods-CompAPP-CompAPPUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CompAPP-CompAPPUITests.debug.xcconfig"; path = "Target Support Files/Pods-CompAPP-CompAPPUITests/Pods-CompAPP-CompAPPUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CD295DF72546F105000795AA /* AfterLogged.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfterLogged.swift; sourceTree = "<group>"; };
+		CD4D7E0A2582EA0600D342D2 /* SinfulView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinfulView.swift; sourceTree = "<group>"; };
+		CD4D7E1025837B2100D342D2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../../../Downloads/README.md; sourceTree = "<group>"; };
+		CD4D7E182583867700D342D2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CD648E9D25447660003C6513 /* CompAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CompAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD648EA025447660003C6513 /* CompAPPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompAPPApp.swift; sourceTree = "<group>"; };
+		CD648EA225447660003C6513 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CD648EA425447661003C6513 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD648EA725447661003C6513 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CD648EA925447661003C6513 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD648EAE25447662003C6513 /* CompAPPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CompAPPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD648EB225447662003C6513 /* CompAPPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompAPPTests.swift; sourceTree = "<group>"; };
+		CD648EB425447662003C6513 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD648EB925447662003C6513 /* CompAPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CompAPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD648EBD25447662003C6513 /* CompAPPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompAPPUITests.swift; sourceTree = "<group>"; };
+		CD648EBF25447662003C6513 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD771EDC25823DA100DAC45C /* ReminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderView.swift; sourceTree = "<group>"; };
+		CD797A32255AEE1B0034DC58 /* NotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesView.swift; sourceTree = "<group>"; };
+		CD797A3A255AF1580034DC58 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		CD797A3F255B2CA60034DC58 /* NotesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesData.swift; sourceTree = "<group>"; };
+		CD797A4C256299B50034DC58 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		D58089150B4389D033EF10F5 /* Pods_CompAPPTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CompAPPTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5B86C821EA049B53C3B6773 /* Pods-CompAPPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CompAPPTests.release.xcconfig"; path = "Target Support Files/Pods-CompAPPTests/Pods-CompAPPTests.release.xcconfig"; sourceTree = "<group>"; };
+		FB22D43E9D217C322E669C67 /* Pods_CompAPP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CompAPP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD648E9A2544765F003C6513 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3CEA03A108C6B0927916266 /* Pods_CompAPP.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD648EAB25447662003C6513 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0772F29D26042C3305E69073 /* Pods_CompAPPTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD648EB625447662003C6513 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC9438B6B263D1357071589C /* Pods_CompAPP_CompAPPUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		958851C82F66718F3D34C668 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB22D43E9D217C322E669C67 /* Pods_CompAPP.framework */,
+				65999392C2075214185BAAD1 /* Pods_CompAPP_CompAPPUITests.framework */,
+				D58089150B4389D033EF10F5 /* Pods_CompAPPTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD648E942544765F003C6513 = {
+			isa = PBXGroup;
+			children = (
+				CD4D7E182583867700D342D2 /* README.md */,
+				CD648E9F25447660003C6513 /* CompAPP */,
+				CD648EB125447662003C6513 /* CompAPPTests */,
+				CD648EBC25447662003C6513 /* CompAPPUITests */,
+				CD648E9E25447660003C6513 /* Products */,
+				D0C4408D596DA33BF7AFB18D /* Pods */,
+				958851C82F66718F3D34C668 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CD648E9E25447660003C6513 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD648E9D25447660003C6513 /* CompAPP.app */,
+				CD648EAE25447662003C6513 /* CompAPPTests.xctest */,
+				CD648EB925447662003C6513 /* CompAPPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD648E9F25447660003C6513 /* CompAPP */ = {
+			isa = PBXGroup;
+			children = (
+				CD648EA025447660003C6513 /* CompAPPApp.swift */,
+				CD648EA225447660003C6513 /* ContentView.swift */,
+				CD295DF72546F105000795AA /* AfterLogged.swift */,
+				CD771EDC25823DA100DAC45C /* ReminderView.swift */,
+				CD797A4C256299B50034DC58 /* SettingsView.swift */,
+				CD797A3A255AF1580034DC58 /* CalendarView.swift */,
+				CD4D7E0A2582EA0600D342D2 /* SinfulView.swift */,
+				CD797A32255AEE1B0034DC58 /* NotesView.swift */,
+				CD797A3F255B2CA60034DC58 /* NotesData.swift */,
+				CD648EA425447661003C6513 /* Assets.xcassets */,
+				CD648EA925447661003C6513 /* Info.plist */,
+				CD4D7E1025837B2100D342D2 /* README.md */,
+				CD648EA625447661003C6513 /* Preview Content */,
+			);
+			path = CompAPP;
+			sourceTree = "<group>";
+		};
+		CD648EA625447661003C6513 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CD648EA725447661003C6513 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CD648EB125447662003C6513 /* CompAPPTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD648EB225447662003C6513 /* CompAPPTests.swift */,
+				CD648EB425447662003C6513 /* Info.plist */,
+			);
+			path = CompAPPTests;
+			sourceTree = "<group>";
+		};
+		CD648EBC25447662003C6513 /* CompAPPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD648EBD25447662003C6513 /* CompAPPUITests.swift */,
+				CD648EBF25447662003C6513 /* Info.plist */,
+			);
+			path = CompAPPUITests;
+			sourceTree = "<group>";
+		};
+		D0C4408D596DA33BF7AFB18D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0223951DAB0F34A94D2910DD /* Pods-CompAPP.debug.xcconfig */,
+				436FDCAF9DBC2C057254D6A6 /* Pods-CompAPP.release.xcconfig */,
+				A2BE4376BD4920A948F5E239 /* Pods-CompAPP-CompAPPUITests.debug.xcconfig */,
+				1653745B669CD300B11CA299 /* Pods-CompAPP-CompAPPUITests.release.xcconfig */,
+				79AE17420EB5D36388D5600D /* Pods-CompAPPTests.debug.xcconfig */,
+				E5B86C821EA049B53C3B6773 /* Pods-CompAPPTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD648E9C2544765F003C6513 /* CompAPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD648EC225447662003C6513 /* Build configuration list for PBXNativeTarget "CompAPP" */;
+			buildPhases = (
+				3B90CC5EBB5678D2A43E4AEF /* [CP] Check Pods Manifest.lock */,
+				CD648E992544765F003C6513 /* Sources */,
+				CD648E9A2544765F003C6513 /* Frameworks */,
+				CD648E9B2544765F003C6513 /* Resources */,
+				F0D58A260D4195B825EAE107 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CompAPP;
+			productName = CompAPP;
+			productReference = CD648E9D25447660003C6513 /* CompAPP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD648EAD25447662003C6513 /* CompAPPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD648EC525447662003C6513 /* Build configuration list for PBXNativeTarget "CompAPPTests" */;
+			buildPhases = (
+				50E978508C6830ED91529644 /* [CP] Check Pods Manifest.lock */,
+				CD648EAA25447662003C6513 /* Sources */,
+				CD648EAB25447662003C6513 /* Frameworks */,
+				CD648EAC25447662003C6513 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD648EB025447662003C6513 /* PBXTargetDependency */,
+			);
+			name = CompAPPTests;
+			productName = CompAPPTests;
+			productReference = CD648EAE25447662003C6513 /* CompAPPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD648EB825447662003C6513 /* CompAPPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD648EC825447662003C6513 /* Build configuration list for PBXNativeTarget "CompAPPUITests" */;
+			buildPhases = (
+				EC1A742D7755AC797FEBAFB0 /* [CP] Check Pods Manifest.lock */,
+				CD648EB525447662003C6513 /* Sources */,
+				CD648EB625447662003C6513 /* Frameworks */,
+				CD648EB725447662003C6513 /* Resources */,
+				5609C3C09B5C92FA2FC2CBE6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD648EBB25447662003C6513 /* PBXTargetDependency */,
+			);
+			name = CompAPPUITests;
+			productName = CompAPPUITests;
+			productReference = CD648EB925447662003C6513 /* CompAPPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD648E952544765F003C6513 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					CD648E9C2544765F003C6513 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					CD648EAD25447662003C6513 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = CD648E9C2544765F003C6513;
+					};
+					CD648EB825447662003C6513 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = CD648E9C2544765F003C6513;
+					};
+				};
+			};
+			buildConfigurationList = CD648E982544765F003C6513 /* Build configuration list for PBXProject "CompAPP" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD648E942544765F003C6513;
+			productRefGroup = CD648E9E25447660003C6513 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD648E9C2544765F003C6513 /* CompAPP */,
+				CD648EAD25447662003C6513 /* CompAPPTests */,
+				CD648EB825447662003C6513 /* CompAPPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD648E9B2544765F003C6513 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD4D7E1125837B2100D342D2 /* README.md in Resources */,
+				CD648EA825447661003C6513 /* Preview Assets.xcassets in Resources */,
+				CD648EA525447661003C6513 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD648EAC25447662003C6513 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD648EB725447662003C6513 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B90CC5EBB5678D2A43E4AEF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CompAPP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50E978508C6830ED91529644 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CompAPPTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5609C3C09B5C92FA2FC2CBE6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CompAPP-CompAPPUITests/Pods-CompAPP-CompAPPUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CompAPP-CompAPPUITests/Pods-CompAPP-CompAPPUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CompAPP-CompAPPUITests/Pods-CompAPP-CompAPPUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC1A742D7755AC797FEBAFB0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CompAPP-CompAPPUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0D58A260D4195B825EAE107 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CompAPP/Pods-CompAPP-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CompAPP/Pods-CompAPP-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CompAPP/Pods-CompAPP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD648E992544765F003C6513 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD295DF82546F105000795AA /* AfterLogged.swift in Sources */,
+				CD797A4D256299B50034DC58 /* SettingsView.swift in Sources */,
+				CD797A3B255AF1580034DC58 /* CalendarView.swift in Sources */,
+				CD797A33255AEE1B0034DC58 /* NotesView.swift in Sources */,
+				CD648EA325447660003C6513 /* ContentView.swift in Sources */,
+				CD648EA125447660003C6513 /* CompAPPApp.swift in Sources */,
+				CD771EDD25823DA100DAC45C /* ReminderView.swift in Sources */,
+				CD797A40255B2CA60034DC58 /* NotesData.swift in Sources */,
+				CD4D7E0B2582EA0600D342D2 /* SinfulView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD648EAA25447662003C6513 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD648EB325447662003C6513 /* CompAPPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD648EB525447662003C6513 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD648EBE25447662003C6513 /* CompAPPUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD648EB025447662003C6513 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD648E9C2544765F003C6513 /* CompAPP */;
+			targetProxy = CD648EAF25447662003C6513 /* PBXContainerItemProxy */;
+		};
+		CD648EBB25447662003C6513 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD648E9C2544765F003C6513 /* CompAPP */;
+			targetProxy = CD648EBA25447662003C6513 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CD648EC025447662003C6513 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD648EC125447662003C6513 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD648EC325447662003C6513 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0223951DAB0F34A94D2910DD /* Pods-CompAPP.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CompAPP/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CompAPP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = group13.CompAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD648EC425447662003C6513 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 436FDCAF9DBC2C057254D6A6 /* Pods-CompAPP.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CompAPP/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CompAPP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = group13.CompAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD648EC625447662003C6513 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79AE17420EB5D36388D5600D /* Pods-CompAPPTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CompAPPTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = group13.CompAPPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CompAPP.app/CompAPP";
+			};
+			name = Debug;
+		};
+		CD648EC725447662003C6513 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5B86C821EA049B53C3B6773 /* Pods-CompAPPTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CompAPPTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = group13.CompAPPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CompAPP.app/CompAPP";
+			};
+			name = Release;
+		};
+		CD648EC925447662003C6513 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2BE4376BD4920A948F5E239 /* Pods-CompAPP-CompAPPUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CompAPPUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = group13.CompAPPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CompAPP;
+			};
+			name = Debug;
+		};
+		CD648ECA25447662003C6513 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1653745B669CD300B11CA299 /* Pods-CompAPP-CompAPPUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CompAPPUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = group13.CompAPPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CompAPP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD648E982544765F003C6513 /* Build configuration list for PBXProject "CompAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD648EC025447662003C6513 /* Debug */,
+				CD648EC125447662003C6513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD648EC225447662003C6513 /* Build configuration list for PBXNativeTarget "CompAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD648EC325447662003C6513 /* Debug */,
+				CD648EC425447662003C6513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD648EC525447662003C6513 /* Build configuration list for PBXNativeTarget "CompAPPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD648EC625447662003C6513 /* Debug */,
+				CD648EC725447662003C6513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD648EC825447662003C6513 /* Build configuration list for PBXNativeTarget "CompAPPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD648EC925447662003C6513 /* Debug */,
+				CD648ECA25447662003C6513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD648E952544765F003C6513 /* Project object */;
+}
